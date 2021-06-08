@@ -40,8 +40,8 @@ node ('societe-vm'){
      
      stage("Deploy Cluster"){
        kubernetesDeploy(
-         configs: '', 
-         kubeconfigId: '',
+         configs: 'deployment.yml', 
+         kubeconfigId: 'KUBE_Config',
          enableConfigSubstitution: true
         )
      }
