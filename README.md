@@ -1,4 +1,4 @@
-# Code-Kata![image]
+# Code-Kata
 In kubernetes master use this command to check the service <br>
 kubectl get svc
 <br>
